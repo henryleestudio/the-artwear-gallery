@@ -1,0 +1,122 @@
+{% layout 'theme.pagefly' %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Raleway:400&display=swap"><link rel="stylesheet" href="https://cdn.pagefly.io/pagefly/2.14.15/css/main-style.css?t=20201203161220"><link rel="stylesheet" href="{{ 'pagefly.5203f99b.css' | asset_url }}">
+		  {% if product_6096946888878 == null %}{%- assign product_6096946888878 = all_products['blue-beige-ugly-christmas-sweater'] -%}{% endif %} {% if product_6096940597422 == null %}{%- assign product_6096940597422 = all_products['green-grey-ugly-christmas-sweater'] -%}{% endif %}<script>
+	window.__pageflyProducts = window.__pageflyProducts || {};
+	window.__pageflyProducts["6096946888878"] = {
+					id: {{product_6096946888878.id | json }},
+					handle: {{product_6096946888878.handle | json }},
+					title: {{product_6096946888878.title | json }},
+					type: {{product_6096946888878.type | json }},
+					url: {{product_6096946888878.url | json }},
+					vendor: {{product_6096946888878.vendor | json }},
+					variants: {{product_6096946888878.variants | json }},
+					options: {{product_6096946888878.options | json }},
+					media: {{product_6096946888878.media | json }},
+					has_only_default_variant: {{product_6096946888878.has_only_default_variant | json }},
+					options_with_values: {{product_6096946888878.options_with_values | json }},
+					selected_variant: {{product_6096946888878.selected_variant | json }},
+					selected_or_first_available_variant: {{product_6096946888878.selected_or_first_available_variant | json }},
+					tags: {{product_6096946888878.tags | json }},
+					template_suffix: {{product_6096946888878.template_suffix | json }},
+					featured_image: {{product_6096946888878.featured_image | json }},
+					featured_media: {{product_6096946888878.featured_media | json }},
+					images: {{product_6096946888878.images | json }}
+				};window.__pageflyProducts["6096940597422"] = {
+					id: {{product_6096940597422.id | json }},
+					handle: {{product_6096940597422.handle | json }},
+					title: {{product_6096940597422.title | json }},
+					type: {{product_6096940597422.type | json }},
+					url: {{product_6096940597422.url | json }},
+					vendor: {{product_6096940597422.vendor | json }},
+					variants: {{product_6096940597422.variants | json }},
+					options: {{product_6096940597422.options | json }},
+					media: {{product_6096940597422.media | json }},
+					has_only_default_variant: {{product_6096940597422.has_only_default_variant | json }},
+					options_with_values: {{product_6096940597422.options_with_values | json }},
+					selected_variant: {{product_6096940597422.selected_variant | json }},
+					selected_or_first_available_variant: {{product_6096940597422.selected_or_first_available_variant | json }},
+					tags: {{product_6096940597422.tags | json }},
+					template_suffix: {{product_6096940597422.template_suffix | json }},
+					featured_image: {{product_6096940597422.featured_image | json }},
+					featured_media: {{product_6096940597422.featured_media | json }},
+					images: {{product_6096940597422.images | json }}
+				};window.__pageflyProducts["{{product.id}}"] = {
+					id: {{product.id | json }},
+					handle: {{product.handle | json }},
+					title: {{product.title | json }},
+					type: {{product.type | json }},
+					url: {{product.url | json }},
+					vendor: {{product.vendor | json }},
+					variants: {{product.variants | json }},
+					options: {{product.options | json }},
+					media: {{product.media | json }},
+					has_only_default_variant: {{product.has_only_default_variant | json }},
+					options_with_values: {{product.options_with_values | json }},
+					selected_variant: {{product.selected_variant | json }},
+					selected_or_first_available_variant: {{product.selected_or_first_available_variant | json }},
+					tags: {{product.tags | json }},
+					template_suffix: {{product.template_suffix | json }},
+					featured_image: {{product.featured_image | json }},
+					featured_media: {{product.featured_media | json }},
+					images: {{product.images | json }}
+				};
+	</script><div class="__pf" id="__pf"><div data-pf-type="Body" class="sc-pRgDJ fzXWJx pf-9ce50931"><div data-pf-type="Layout" class="pf-1ee09ce5"><div data-pf-type="ProductPreview" class="sc-pJVLq dIjrXL pf-d67c7663">{%- if product.type == 'GSC_HIDDEN_PRODUCT' -%}{%- break -%}{%- endif -%}
+{% comment %}
+  The contents of the product.liquid template can be found in /sections/product-template.liquid
+{% endcomment %}
+
+{% section 'product-template' %}
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  theme.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  }
+</script>
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "{{ product.title | escape }}",
+  "url": "{{ shop.url }}{{ product.url }}",
+  {%- if product.featured_image -%}
+    {%- assign image_size = product.featured_image.width | append: 'x' -%}
+    "image": [
+      "https:{{ product.featured_image.src | img_url: image_size }}"
+    ],
+  {%- endif -%}
+  "description": "{{ product.description | strip_html | escape }}",
+  {%- if current_variant.sku != blank -%}
+    "sku": "{{ current_variant.sku }}",
+  {%- endif -%}
+  "brand": {
+    "@type": "Thing",
+    "name": "{{ product.vendor | escape }}"
+  },
+  "offers": [
+    {%- for variant in product.variants -%}
+      {
+        "@type" : "Offer",
+        {%- if variant.sku != blank -%}
+          "sku": "{{ variant.sku }}",
+        {%- endif -%}
+        "availability" : "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+        "price" : "{{ variant.price | divided_by: 100.00 }}",
+        "priceCurrency" : "{{ cart.currency.iso_code }}",
+        "url" : "{{ shop.url }}{{ variant.url }}"
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+</div><div data-container="true" class="sc-pZopv bjKdkd pf-70a8e777" data-pf-type="Section"><div class="sc-pQQXS iWCqut" style="max-width: 1170px;"><div class="sc-qPjXN eYzxUD pf-ea3a70a8 pf-r pf-r-eh" data-pf-type="Row" style="--pf-s-lg:15px; --pf-s-md:15px; --pf-s-sm:15px; --pf-s-xs:15px;"><div class="sc-pbYdQ jklmHY pf-c pf-c-xs--12 pf-c-sm--6 pf-c-md--6 pf-c-lg--6"><div class="sc-pkUyL fTyjzF pf-3bca3b0f" data-pf-type="Column"><img sizes="(min-width: 992px) 1200px, (min-width: 768px) and (max-width: 991px) 800px, 400px" srcset="https://cdn.shopify.com/s/files/1/0051/4136/4839/t/3/assets/pf-29972184--harryad.jpg?v=1607031454 1200w, https://cdn.shopify.com/s/files/1/0051/4136/4839/t/3/assets/pf-29972184--harryad_800x800.jpg?v=1607031454&resized 800w, https://cdn.shopify.com/s/files/1/0051/4136/4839/t/3/assets/pf-29972184--harryad_400x400.jpg?v=1607031454&resized 400w" class="sc-qZtVr dLIPjF pf-2184f32b" data-pf-type="Image2"></div></div><div class="sc-pbYdQ jklmHY pf-c pf-c-xs--12 pf-c-sm--6 pf-c-md--6 pf-c-lg--6"><div class="sc-pkUyL fTyjzF pf-04f3ea3a" data-pf-type="Column"><img sizes="(min-width: 992px) 1200px, (min-width: 768px) and (max-width: 991px) 800px, 400px" srcset="https://cdn.shopify.com/s/files/1/0051/4136/4839/t/3/assets/pf-f32bfc70--haryytrustbadge.jpg?v=1607031563 1200w, https://cdn.shopify.com/s/files/1/0051/4136/4839/t/3/assets/pf-f32bfc70--haryytrustbadge.jpg?v=1607031563 800w, https://cdn.shopify.com/s/files/1/0051/4136/4839/t/3/assets/pf-f32bfc70--haryytrustbadge_400x67.jpg?v=1607031563&resized 400w" class="sc-qZtVr dLIPjF pf-2f299721" data-pf-type="Image2"><p data-pf-type="Paragraph2" class="sc-pkvvt cbrLgP pf-78a504f3"><span data-pf-type="Text" class="sc-ptSuy fnmilh pf-3bf678a5"><br>✅ All of our items are made to order. This means as soon as you order, we get to work producing your items!<br><br>📦 Please allow 5 - 7 business days to receive a tracking number.<br><br>📬 Depending on your location, shipping time is quoted by the mail carrier as 4 - 12 business days.</span></p></div></div></div></div></div><div data-container="true" class="sc-pZopv bjKdkd pf-e7775b60" data-pf-type="Section"><div class="sc-pQQXS iWCqut" style="max-width: 1170px;"></div></div></div></div></div><script>
+					window.__pagefly_setting__={"baseURL":"https://apps.pagefly.io","analyticsURL":"https://analytics.pagefly.io","isBackend":false,"cdnURL":"https://cdn.pagefly.io","pageflyVersion":"2.14.15","shopDomain":"the-artwear-gallery.myshopify.com","elementData":{},"pageTitle":"extra product page","pageType":"product","pageId":"5203f99b-cd40-4c2b-8d0a-45ba8411fd40","lazyLoad":false,"imageLazyLoad":false,"nativeImageLazyLoad":false,"trackingIDs":[],"shopifyProxyPath":"/a/pf_preview","updatedTime":"2020-12-03T21:51:53.931Z"};
+					window.__pagefly_setting__.moneyFormat = {{shop.money_format | json}}
+				</script><script src="https://cdn.pagefly.io/pagefly/2.14.15/core/helper.js?t=20201203161220" defer></script>
