@@ -1,20 +1,17 @@
-# Dream logger
-Track, update, and delete your dreams by date - Full stack application
-
-I've had vivid and prosthetic dreams for as long as I can remember. Some taught me profound life lessons, and some showed me the matters of my heart. My dreams have taken me on journeys of ancestry, and spirituality. The more we track our dreams, the more we are able to become conscious and create within them. 
-
-JavaScript | Node.js | Express | Mongodb | Bootstrap | Graphic Design | Graphic Art | Photoshop CC
+# The Artwear Gallery
 
 Link to project: <a target="_blank" href="https://theartweargallery.com/">live demo</a>
 
 ![localhost_3000_profile](https://user-images.githubusercontent.com/101936420/172062223-c5b3fe18-1dc2-451c-8bfa-817e2751b569.png)
 
-![localhost_3000_login](https://user-images.githubusercontent.com/101936420/172062252-f080f9c2-23d4-44f8-b65f-5b655fd25a08.png)
+<!-- ## Design -->
+I managed a Shopify e-commerce platform, created website funnels, designed & managed online advertisements, launched new products. Led 13+ creative professionals in product design, research, leadership training. Created 50+ products and designed brand materials.
 
-![localhost_3000_](https://user-images.githubusercontent.com/101936420/172062260-b55c3f39-af2a-466d-afec-04609acc0f59.png)
+• Design & create artwear / fashion collections.
+• Manage the art gallery / venue space.
+• Marketing the art & fashion products.
 
-## Design
-A gamey / technological aesthetic merged with a deep and dreamy spacious feel. My intention were to resonate with the moment a person realizes their awake state, when the dream is fresh and easy to remember. I chose a color scheme and imagery that's easy on the eyes, and could match the energy of the mindset.
+Liquid | JSON | Javascript | CSS | UI/UX Design | Videography | Typography | Photoshop CC
 
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
