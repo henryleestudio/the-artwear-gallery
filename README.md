@@ -2,7 +2,25 @@
 
 Link to project: <a target="_blank" href="https://theartweargallery.com/">live demo</a>
 
-![localhost_3000_profile](https://user-images.githubusercontent.com/101936420/172062223-c5b3fe18-1dc2-451c-8bfa-817e2751b569.png)
+![aw-slide-1](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/af237149-d823-41b9-a12e-c1fabe0ab9f9)
+
+<img width="1440" alt="website-footer" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/2540495c-3b30-4b30-93fc-d75046c379e2">
+
+<img width="629" alt="product-img" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/c85bb721-127a-429c-b2ac-060c144e2cbc">
+
+<img width="1440" alt="artwear-expo" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/2a086580-c1b8-4252-942e-e94321e7cb06">
+
+<img width="1792" alt="Screen Shot 2023-12-13 at 10 32 56 PM" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/282b0a12-1423-4c20-9963-a010da4ace3e">
+
+![aw-slide-3 12 09 42 AM](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/db578762-81fc-42eb-af21-cfbb3144dcbb)
+
+![aw-slide 11 00 38 AM](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/41c23f35-9bc4-4118-9dd1-18c1345fbbb4)
+
+![aw-slide-000](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/55bdbf6c-0e61-44e3-86d5-edb3bc375e8e)
+
+![aw-slide-0000](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/1842494a-575f-43a2-a4c7-6a19c6f83ba6)
+
+<img width="1792" alt="Screen Shot 2023-12-13 at 11 05 53 PM" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/406f0ed4-5400-4d2b-8dfa-111d8c76649b">
 
 <!-- ## Design -->
 I managed a Shopify e-commerce platform, created website funnels, designed & managed online advertisements, launched new products. Led 13+ creative professionals in product design, research, leadership training. Created 50+ products and designed brand materials.
