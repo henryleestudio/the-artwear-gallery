@@ -14,6 +14,8 @@ Link to project: <a target="_blank" href="https://theartweargallery.com/">live d
 
 <img width="1440" alt="artwear-expo" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/2a086580-c1b8-4252-942e-e94321e7cb06">
 
+![aw-slide-3 12 09 42 AM](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/db578762-81fc-42eb-af21-cfbb3144dcbb)
+
 ![aw-slide-save](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/6b7c1187-4d4d-41a9-adb4-f4d3ed717f03)
 
 
@@ -24,8 +26,6 @@ Link to project: <a target="_blank" href="https://theartweargallery.com/">live d
 
 
 
-
-![aw-slide-3 12 09 42 AM](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/db578762-81fc-42eb-af21-cfbb3144dcbb)
 
 ![aw-slide-000](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/55bdbf6c-0e61-44e3-86d5-edb3bc375e8e)
 
