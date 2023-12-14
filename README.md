@@ -4,13 +4,13 @@ Link to project: <a target="_blank" href="https://theartweargallery.com/">live d
 
 ![aw-slide-1](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/af237149-d823-41b9-a12e-c1fabe0ab9f9)
 
-![aw-slide-11](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/a23e5898-7424-4a84-9a93-10a43f3f382e)
-
-<img width="100%" alt="product-img" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/c85bb721-127a-429c-b2ac-060c144e2cbc">
-
 <img width="1440" alt="artwear-expo" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/2a086580-c1b8-4252-942e-e94321e7cb06">
 
 ![aw-slide-0000](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/1842494a-575f-43a2-a4c7-6a19c6f83ba6)
+
+<img width="100%" alt="product-img" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/c85bb721-127a-429c-b2ac-060c144e2cbc">
+
+![aw-slide-11](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/a23e5898-7424-4a84-9a93-10a43f3f382e)
 
 ![aw-slide-save](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/6b7c1187-4d4d-41a9-adb4-f4d3ed717f03)
 
