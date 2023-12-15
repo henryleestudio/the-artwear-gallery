@@ -30,7 +30,7 @@ I managed a Shopify e-commerce platform, created website funnels, designed & man
 • Marketing the art & fashion products.<br>
 
 Liquid | JSON | Javascript | CSS | UI/UX Design | Videography | Typography | Photoshop CC
-
+<br>
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
     <img src="https://user-images.githubusercontent.com/101936420/172000054-7df36c23-7223-488f-8ecd-9f6bb4a79ff4.png" width="10%"/>
