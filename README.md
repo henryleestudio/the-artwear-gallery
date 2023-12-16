@@ -26,7 +26,6 @@ Beyond e-commerce, I curated art to wear fashion collections, managed an artwear
 ![aw-slide-000](https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/55bdbf6c-0e61-44e3-86d5-edb3bc375e8e)
 
 <img width="1792" alt="Screen Shot 2023-12-13 at 11 05 53 PM" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/406f0ed4-5400-4d2b-8dfa-111d8c76649b">
-
 <br><br>
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
