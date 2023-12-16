@@ -23,14 +23,11 @@ Link to project: <a target="_blank" href="https://theartweargallery.com/">live d
 <img width="1792" alt="Screen Shot 2023-12-13 at 11 05 53 PM" src="https://github.com/henryleestudio/the-artwear-gallery/assets/101936420/406f0ed4-5400-4d2b-8dfa-111d8c76649b">
 
 <!-- ## Design -->
-I managed a Shopify e-commerce platform, created website funnels, designed & managed online advertisements, launched new products. Led 13+ creative professionals in product design, research, leadership training. Created 50+ products and designed brand materials.
-&nbsp
-• Design & create artwear / fashion collections.<br>
-• Manage the art gallery / venue space.<br>
-• Marketing the art & fashion products.<br>
+I designed and developed the Shopify e-commerce platform, created website funnels, designed & managed online advertisements, launched new products. Led 13+ creative professionals in product design, events, leadership training. Created 50+ products and designed brand materials.
+<br><br>
+Beyond e-commerce, I curated art to wear fashion collections, managed an artwear gallery, and orchestrated marketing initiatives for the artwear products. My multifaceted role seamlessly blends creativity and commerce, resulting in a dynamic platform that merges art and fashion with contemporary business systems.
 
-Liquid | JSON | Javascript | CSS | UI/UX Design | Videography | Typography | Photoshop CC
-<br>
+
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
     <img src="https://user-images.githubusercontent.com/101936420/172000054-7df36c23-7223-488f-8ecd-9f6bb4a79ff4.png" width="10%"/>
